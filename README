@@ -1,28 +1,38 @@
 # linux-utils
 
-`linux-utils` is a collection of command-line utilities inspired by classic Unix/Linux tools. The project's goal is to provide simple, readable, and portable implementations of essential commands, useful both for learning and for everyday use.
+**linux-utils** is a collection of command-line utilities inspired by classic Unix/Linux tools.  
+The project's goal is to provide simple, readable, and portable implementations of essential commands — useful both for learning purposes and everyday use.
 
-## Currently Available Commands
+---
+
+## Available Commands
 
 ### `cat`
 
-The `cat` (concatenate) command reads one or more files and prints their contents to standard output. It is commonly used to display files, concatenate multiple files together, or redirect content.
+The `cat` (concatenate) command reads one or more files and prints their contents to standard output.  
+It is commonly used to display file contents, concatenate multiple files, or redirect content.
 
 #### Usage
 
 ```sh
 linux-utils cat file1.txt file2.txt
-```
+cd
+The cd (change directory) command changes the current working directory.
+It is used to navigate between directories.
 
----
+⚠️ Note: Due to the nature of how processes work in Unix/Linux, a standalone compiled cd command cannot change the current directory of the calling shell.
+This is intended for educational purposes or to be used inside custom shells.
 
-### `cd`
-
-The `cd` (change directory) command changes the current working directory of the shell environment. It is used to navigate between directories.
-
-#### Usage
-
-```sh
+Usage
+sh
+Copia
+Modifica
 linux-utils cd /path/to/directory
-```
+Build Instructions
+To compile the utilities:
 
+sh
+Copia
+Modifica
+make
+Each command will be compiled into its own binary inside the bin/ directory (or current directory depending on your Makefile).
