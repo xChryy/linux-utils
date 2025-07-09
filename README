@@ -1,0 +1,12 @@
+# linux-utils
+
+`linux-utils` is a collection of command-line utilities inspired by classic Unix/Linux tools. The project's goal is to provide simple, readable, and portable implementations of essential commands, useful both for learning and for everyday use.
+
+## Currently Available Commands
+
+### `cat`
+
+The `cat` (concatenate) command reads one or more files and prints their contents to standard output. It is commonly used to display files, concatenate multiple files together, or redirect content.
+
+#### Usage
+
