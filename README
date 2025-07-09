@@ -10,3 +10,19 @@ The `cat` (concatenate) command reads one or more files and prints their content
 
 #### Usage
 
+```sh
+linux-utils cat file1.txt file2.txt
+```
+
+---
+
+### `cd`
+
+The `cd` (change directory) command changes the current working directory of the shell environment. It is used to navigate between directories.
+
+#### Usage
+
+```sh
+linux-utils cd /path/to/directory
+```
+
