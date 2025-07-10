@@ -26,3 +26,14 @@ The `cd` (change directory) command changes the current working directory of the
 linux-utils cd /path/to/directory
 ```
 
+---
+
+### `clear`
+
+The `clear` command clears the terminal screen, providing a clean workspace. It is useful for removing previous command output from view.
+
+#### Usage
+
+```sh
+linux-utils clear
+```
